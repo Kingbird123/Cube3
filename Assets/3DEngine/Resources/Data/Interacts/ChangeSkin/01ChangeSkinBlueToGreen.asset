@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a9b6d65c0410045b52a8e674ae488b, type: 3}
+  m_Name: 01ChangeSkinBlueToGreen
+  m_EditorClassIdentifier: 
+  delay: 0
+  needPrerequisiteSkin: 1
+  prerequisiteSkin: {fileID: 11400000, guid: 13edc57222129e14783b8bf29e875c74, type: 2}
+  copyLocalUnitValues: 0
+  changeSkinDelay: 0
+  skinData: {fileID: 11400000, guid: d21b45881781ecd4dbe9592e35ded05a, type: 2}
+  freezeReciever: 0
+  doAnimations: 0
+  crossFadeTime: 2
+  senderAnimToPlay: 
+  receiverAnimToPlay: 
+  spawnObjectAfterChange: 0
+  spawnObjects: []
+  destroySenderAfterChange: 1
+  destroyRoot: 0
+  destroyDelay: 0

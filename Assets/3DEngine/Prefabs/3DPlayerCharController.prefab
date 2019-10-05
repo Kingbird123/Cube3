@@ -1,0 +1,444 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1032697471310498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4297736896402438}
+  - component: {fileID: 1298310993547177125}
+  - component: {fileID: 114821912425178830}
+  - component: {fileID: 114241785917431474}
+  - component: {fileID: 114219911752550862}
+  - component: {fileID: 114291771598248526}
+  m_Layer: 11
+  m_Name: 3DPlayerCharController
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4297736896402438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032697471310498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.37, y: 0.27, z: 0.475}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!143 &1298310993547177125
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032697471310498}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.0001
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &114821912425178830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032697471310498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bdab301b3a5a9d4f94f5fa09487b2c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 0}
+  spawnUI: 0
+  UIToSpawn: {fileID: 0}
+  parentUIToUnit: 0
+  attackTarget: {fileID: 0}
+  skinOptions: 0
+  spawnSkinOverride: {fileID: 0}
+  childSkinOverride: {fileID: 0}
+  spawnLocationData: {fileID: 0}
+  spawnLocations: []
+  setData: 1
+  userMode: 0
+  userDataManager: {fileID: 0}
+  user:
+    stringValue: 
+    indexValue: 0
+    stringValues: []
+--- !u!114 &114241785917431474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032697471310498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62d642782aaa50d4cbf0f0feb9e49b37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controllerType: 1
+  moveForceType: 0
+  agent: {fileID: 0}
+  defaultMovement: 0
+  curMovement: 0
+  target: {fileID: 0}
+  doDefaultMovementIfNoTargets: 1
+  entityDataManager: {fileID: 0}
+  chasePriorities: []
+  fleePriorities: []
+  lookAtPriorities: []
+  patrolType: 0
+  patrolDatas: []
+  patrolPoints: []
+  wanderRadius: 3
+  minNextDistance: 1
+  resetWanderCenterOnReset: 0
+  chaseIntervalCheckTime: 1
+  fleeIntervalCheckTime: 1
+  fleeSearchDistance: 10
+  arrivalDistance: 0.1
+  arrivalTime: 0
+  stuckCheckTime: 5
+  rotSensitivity: 5
+  ignoreLeanRotation: 1
+  enableClimbing: 1
+  climbingDetect: 0
+  climbSpeed: 15
+  climbing: 0
+  inAirControlTime: 2
+  addedGravityType: 1
+  forceAmount: 20
+  forceDirection: {x: 0, y: -1, z: 0}
+  useCharacterControllerGroundDetection: 0
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 65792
+  platformMask:
+    serializedVersion: 2
+    m_Bits: 65536
+  groundBoxSize: {x: 0.8, y: 0.15, z: 0.8}
+  groundBoxCenter: {x: 0, y: 0, z: 0}
+  sideMask:
+    serializedVersion: 2
+    m_Bits: 4194560
+  sideDetectCenter: {x: 0, y: 1, z: 0}
+  idleDetectRadius: 0.3
+  movingDetectRadius: 0.3
+  sideDetectHeight: 1.3
+  sideDetectDistanceMultiplier: 0.6
+  slowMask:
+    serializedVersion: 2
+    m_Bits: 256
+  slowMultiplier: 0.1
+  ladderLayer:
+    indexValue: 22
+    stringValue: Ladder
+    maskValue:
+      serializedVersion: 2
+      m_Bits: 4194304
+  baseSpeed: 0
+  enableJump: 1
+  horizontalInput:
+    stringValue: Horizontal
+    indexValue: 0
+  verticalInput:
+    stringValue: Horizontal
+    indexValue: 0
+  rawInputValues: 1
+  constantSpeed: 0
+  forwardZMovementOnly: 0
+  enableJoystickUse: 1
+  keyboardAimInputHor:
+    stringValue: Horizontal
+    indexValue: 0
+  keyboardAimInputVer:
+    stringValue: Horizontal
+    indexValue: 0
+  joystickAimInputHor:
+    stringValue: Horizontal
+    indexValue: 0
+  joystickAimInputVer:
+    stringValue: Horizontal
+    indexValue: 0
+  invertY: 0
+  enableRun: 1
+  runButton:
+    stringValue: Run
+    indexValue: 18
+  backwardSpeed: 3
+  enableMovementSmoothing: 1
+  moveSensitivity: 15
+  enableCameraSwitching: 0
+  cameraSwitch:
+    cameraSwitchers: []
+  rotationType: 1
+  clampYRotation: 0
+  yRotationLimit: 90
+  enableRotSmoothing: 1
+  turnSensitivity: 5
+  defaultAimMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  defaultAimOrigin: {x: 0, y: 1, z: 0}
+  defaultAimDistance: 10
+  enableInteraction: 1
+  interactButton:
+    stringValue: Horizontal
+    indexValue: 0
+  interactDistance: 2
+  interactMask:
+    serializedVersion: 2
+    m_Bits: 0
+  enableCrouch: 1
+  crouchButton:
+    stringValue: Crouch
+    indexValue: 31
+  toggleCrouch: 0
+  crouchTime: 0.1
+  crouchSpeed: 2
+  crouchSpeedTime: 1
+  jumpButton:
+    stringValue: Jump
+    indexValue: 5
+  jumpStyle: 2
+  enableDoubleJump: 0
+  enableJumpClimbing: 0
+  gravityMultiplier: 0
+  lowJumpMultiplier: 0
+  jumpCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2.7920861
+      outSlope: 2.7920861
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.09529769
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -4.978868
+      outSlope: -4.978868
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.07869924
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  jumpTime: 0.3
+  enableDash: 1
+  dashButton:
+    stringValue: Fire2
+    indexValue: 3
+  dashPower: 50
+  dashTime: 0.1
+  dashCooldown: 0
+  enableRoll: 0
+  rollButton:
+    stringValue: 
+    indexValue: 0
+  rollHeight: 1
+  heightTransTime: 0.1
+  rollPower: 10
+  rollTime: 0.5
+  rollCooldown: 2
+  ceilingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  ceilingBoxSize: {x: 0.8, y: 0.1, z: 0.8}
+  ceilingBoxCenter: {x: 0, y: 1, z: 0}
+  curCeilingBoxCenter: {x: 0, y: 2, z: 0}
+--- !u!114 &114219911752550862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032697471310498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd78084049756d448e9f58bed3e4711, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputType: 1
+  autoEquipItems: 1
+  setAllItemsActive: 0
+  maxItems: 1
+  disablePickupIfFull: 1
+  itemManager: {fileID: 11400000, guid: cdd949be733b00d46a70ea88e3806ff1, type: 2}
+  itemsToAdd:
+  - itemName: GunPlayer
+    indexValue: 7
+    itemNames:
+    - Buildable
+    - Draggable
+    - Drawable
+    - DiscGun
+    - ForceGun
+    - ForcePush
+    - GunEnemy
+    - GunPlayer
+    - HookShot
+    - ItemButtonPress
+    - ItemInteractFX
+    - Shield
+    - TimeSlow
+    - '[null]'
+    - WeaponMelee
+    - Torch
+    - WeaponPush
+  dropThrowPower: 5
+  loadInventory: 1
+  userDataManager: {fileID: 0}
+  user:
+    stringValue: 
+    indexValue: 0
+    stringValues: []
+  quickMenuButtons:
+  - stringValue: Quick1
+    indexValue: 22
+  interactButton:
+    stringValue: Fire2
+    indexValue: 3
+  defaultAimFX: {fileID: 0}
+  enableToggleSwitch: 0
+  toggleForwardsButton:
+    stringValue: 
+    indexValue: 0
+  toggleBackwardsButton:
+    stringValue: 
+    indexValue: 0
+  equipButton:
+    stringValue: Horizontal
+    indexValue: 0
+  dropButton:
+    stringValue: Drop
+    indexValue: 27
+--- !u!114 &114291771598248526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032697471310498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1155c537e43e804c93a3f69b7e18637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  animController: {fileID: 9100000, guid: 73e810079db905b4cae2d4b8707abc65, type: 2}
+  forceIdle: 0
+  syncType: 1
+  crossfadeTime: 0.3
+  animIdle:
+    indexValue: 0
+    stringValue: Idle
+    layer: 0
+  animHover:
+    indexValue: 0
+    stringValue: 
+    layer: 0
+  animGrounded:
+    indexValue: 0
+    stringValue: grounded
+    layer: 0
+  animOnPlatform:
+    indexValue: 1
+    stringValue: onPlatform
+    layer: 0
+  animVelocitySpeed:
+    indexValue: 12
+    stringValue: horizontal
+    layer: 0
+  animDirectionX:
+    indexValue: 17
+    stringValue: deathNum
+    layer: 0
+  animDirectionY:
+    indexValue: 18
+    stringValue: localVelocityX
+    layer: 0
+  animDirectionZ:
+    indexValue: 19
+    stringValue: localVelocityY
+    layer: 0
+  animHurts: []
+  animDeaths: []
+  animStunned:
+    indexValue: 0
+    stringValue: Idle
+    layer: 0
+  animJump:
+    indexValue: 20
+    stringValue: Start
+    layer: 1
+  animRun:
+    indexValue: 10
+    stringValue: Run
+    layer: 0
+  animAttacksMelee:
+  - indexValue: 4
+    stringValue: Melee00
+    layer: 0
+  - indexValue: 5
+    stringValue: Melee01
+    layer: 0
+  - indexValue: 6
+    stringValue: Melee02
+    layer: 0
+  animAttacksRanged: []
+  animInputHorizontal:
+    indexValue: 11
+    stringValue: hurt
+    layer: 0
+  animInputVertical:
+    indexValue: 13
+    stringValue: velocitySpeed
+    layer: 0
+  animCrouch:
+    indexValue: 9
+    stringValue: dead
+    layer: 0
+  animClimbing:
+    indexValue: 5
+    stringValue: climbing
+    layer: 0
+  animRunning:
+    indexValue: 2
+    stringValue: run
+    layer: 0
+  animDashing:
+    indexValue: 0
+    stringValue: grounded
+    layer: 0
+  animRolling:
+    indexValue: 0
+    stringValue: grounded
+    layer: 0
+  animDoubleJump:
+    indexValue: 17
+    stringValue: Hover
+    layer: 1

@@ -6,18 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/RequiredFiles/3DGamekit/Scenes/Start.unity
-    guid: 57df1e417250bc247976c2c0dc088efe
+    path: Assets/_ThomasEngine/Scenes/MenuScenes/01 GameStartLoadingScreen.unity
+    guid: f8b8cd63b70aff144b7cf0bbdf21a830
   - enabled: 1
-    path: Assets/RequiredFiles/3DGamekit/Scenes/GamePlay/Level1.unity
-    guid: ed46e53182fb08b4482fd3c4a75bc631
+    path: Assets/_ThomasEngine/Scenes/MenuScenes/02 PlayerSignIn.unity
+    guid: 7231b2d73a9835c4f98e3e7010ea1763
   - enabled: 1
-    path: Assets/RequiredFiles/3DGamekit/Scenes/GamePlay/Level2.unity
-    guid: bfc86215544d6ab42b838135fdd17f21
+    path: Assets/_ThomasEngine/Scenes/MenuScenes/03 PlayerSelection.unity
+    guid: 7cabc759a7acc1a4c9a4d16c59912eee
   - enabled: 1
-    path: Assets/.unity
-    guid: 00000000000000000000000000000000
+    path: Assets/_ThomasEngine/Scenes/MenuScenes/04 CampaignLayout.unity
+    guid: 9fd2b867f185cbe4f916cc46d4879dc4
   - enabled: 1
-    path: Assets/Scenes/Test Cube World.unity
-    guid: 2ec7e1f6dd3380348b58a394a9e2ff62
+    path: Assets/_ThomasEngine/Scenes/_Levels/Level01.unity
+    guid: bd33d02b03d8eb64d85b2489e21675e4
   m_configObjects: {}

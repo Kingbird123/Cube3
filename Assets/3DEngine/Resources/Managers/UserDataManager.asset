@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bb37188630f95c4d919deb99a9ef902, type: 3}
+  m_Name: UserDataManager
+  m_EditorClassIdentifier: 
+  maxUsers: 4
+  maxItems: 3
+  setDefaultItems: 1
+  itemManager: {fileID: 11400000, guid: cdd949be733b00d46a70ea88e3806ff1, type: 2}
+  items:
+  - itemName: Torch
+    indexValue: 15
+    itemNames:
+    - Buildable
+    - Draggable
+    - Drawable
+    - FishInflator
+    - ForceGun
+    - ForcePush
+    - GunEnemy
+    - GunPlayer
+    - HookShot
+    - ItemButtonPress
+    - ItemInteractFX
+    - Shield
+    - TimeSlow
+    - TimeSlowChronosGlove
+    - WeaponMelee
+    - Torch
+    - '[null]'
+  - itemName: Torch
+    indexValue: 15
+    itemNames:
+    - Buildable
+    - Draggable
+    - Drawable
+    - FishInflator
+    - ForceGun
+    - ForcePush
+    - GunEnemy
+    - GunPlayer
+    - HookShot
+    - ItemButtonPress
+    - ItemInteractFX
+    - Shield
+    - TimeSlow
+    - TimeSlowChronosGlove
+    - WeaponMelee
+    - Torch
+    - '[null]'
+  - itemName: Torch
+    indexValue: 15
+    itemNames:
+    - Buildable
+    - Draggable
+    - Drawable
+    - FishInflator
+    - ForceGun
+    - ForcePush
+    - GunEnemy
+    - GunPlayer
+    - HookShot
+    - ItemButtonPress
+    - ItemInteractFX
+    - Shield
+    - TimeSlow
+    - TimeSlowChronosGlove
+    - WeaponMelee
+    - Torch
+    - '[null]'
+  userContainer:
+    curUserId: 0
+    users:
+    - playerName: Owen
+      playerSkinInd: 0
+      userId: 0
+      saveSlotId: 0
+      maxHealth: 100
+      lives: 3
+      points: 0
+      levelUnlocked: 0
+      levelName: CheckPointTesting
+      curCheckPoint: 1
+      inventoryItems:
+      - itemName: ItemInteractFX
+        indexValue: 10
+        itemNames:
+        - Buildable
+        - Draggable
+        - Drawable
+        - FishInflator
+        - ForceGun
+        - ForcePush
+        - GunEnemy
+        - GunPlayer
+        - HookShot
+        - ItemButtonPress
+        - ItemInteractFX
+        - Shield
+        - TimeSlow
+        - TimeSlowChronosGlove
+        - WeaponMelee
+        - Torch
+        - '[null]'
+      - itemName: ItemInteractFX
+        indexValue: 10
+        itemNames:
+        - Buildable
+        - Draggable
+        - Drawable
+        - FishInflator
+        - ForceGun
+        - ForcePush
+        - GunEnemy
+        - GunPlayer
+        - HookShot
+        - ItemButtonPress
+        - ItemInteractFX
+        - Shield
+        - TimeSlow
+        - TimeSlowChronosGlove
+        - WeaponMelee
+        - Torch
+        - '[null]'
+      - itemName: 
+        indexValue: 0
+        itemNames: []

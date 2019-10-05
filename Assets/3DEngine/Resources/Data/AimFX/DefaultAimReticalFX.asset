@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7f79a049fdfff44180868d7fc441428, type: 3}
+  m_Name: DefaultAimReticalFX
+  m_EditorClassIdentifier: 
+  defaultAimRetical: {fileID: 1972387698910590, guid: 4dda4dc03cc500f4eba8b2c247589474,
+    type: 3}
+  reticalSwaps:
+  - swapReticalPrefab: {fileID: 1972387698910590, guid: f0de8877b8db95b479cf18d67627c36c,
+      type: 3}
+    swapDistance: 2
+    swapMask:
+      serializedVersion: 2
+      m_Bits: 8388608

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27ab93024bb783e48b2c419590601220, type: 3}
+  m_Name: EnemiesSmall
+  m_EditorClassIdentifier: 
+  avatarIcon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  entityDataManager: {fileID: 11400000, guid: 24b07bd0180bf304495b94de710fb0b3, type: 2}
+  entityId: 0
+  spawnUI: 0
+  UIToSpawn: {fileID: 0}
+  parentUIToUnit: 0
+  setSkin: 0
+  skinPrefab: {fileID: 0}
+  skinSize: {x: 1, y: 2}
+  skinRotation: {x: 0, y: 0, z: 0}
+  locationData: {fileID: 11400000, guid: fcd6cf54689f2664f9ccd93a05a53c7f, type: 2}
+  itemSpawnLocations:
+  - overridePropertyName: RightHand
+    overrideParent: 1
+    parent: {fileID: 0}
+    stringValue: 
+    indexValue: 0
+  - overridePropertyName: LeftHand
+    overrideParent: 1
+    parent: {fileID: 0}
+    stringValue: 
+    indexValue: 0
+  - overridePropertyName: Head
+    overrideParent: 1
+    parent: {fileID: 0}
+    stringValue: 
+    indexValue: 0
+  - overridePropertyName: Foot
+    overrideParent: 1
+    parent: {fileID: 0}
+    stringValue: 
+    indexValue: 0
+  - overridePropertyName: Torso
+    overrideParent: 1
+    parent: {fileID: 0}
+    stringValue: 
+    indexValue: 0
+  weight: 1
+  speed: 6
+  runSpeed: 6
+  backwardSpeed: 2
+  climbingSpeed: 2
+  jumpPower: 5
+  vitalityData: {fileID: 11400000, guid: 863db04df18153e4dbeeb367e75635ae, type: 2}
+  hpValue:
+    stringValue: Health
+    indexValue: 0
+    stringValues:
+    - Health
+    - Mana
+    - Stamina
+  manaValue:
+    stringValue: Health
+    indexValue: 0
+    stringValues:
+    - Health
+    - Mana
+    - Stamina
+  staminaValue:
+    stringValue: Health
+    indexValue: 0
+    stringValues:
+    - Health
+    - Mana
+    - Stamina
+  infiniteLives: 1
+  maxLives: 1
+  onHitFX: []
+  invincibleOnHit: 1
+  invincibleTime: 1
+  ignorePhysicsOnHit: 0
+  ignoreLayers: []
+  ignoreTime: 1
+  stunOnHit: 1
+  stunTime: 1
+  changeMeshMaterialOnHit: 1
+  changeMeshTime: 1
+  materialToUse: {fileID: 2100000, guid: dd1651d61dfdb0a43bc17d22e8ee707e, type: 2}
+  buffs: []
+  deathTime: 1
+  deathFX: []
+  deathOptions: 2
+  delay: 0
+  respawnTime: 1
+  noLivesOptions: 0
+  endTime: 1
+  deathMovement: 0
+  resetLevelOnDeath: 0

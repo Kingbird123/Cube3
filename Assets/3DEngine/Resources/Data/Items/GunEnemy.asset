@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 614768199d046dc4bac32daf0e55234b, type: 3}
+  m_Name: GunEnemy
+  m_EditorClassIdentifier: 
+  connectedPrefab: {fileID: 1928542740963574, guid: ee427a382d37f2e449a625b9ce475509,
+    type: 3}
+  icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  spawnUI: 0
+  itemUI: {fileID: 0}
+  keepUIActiveIfDropped: 0
+  setOwnerAsParent: 0
+  value: 0
+  weight: 0
+  droppable: 0
+  droppedPrefab: {fileID: 0}
+  quickMenuCompatible: 1
+  particleFX: {fileID: 0}
+  animState: 
+  buffs: []
+  locationData: {fileID: 11400000, guid: fcd6cf54689f2664f9ccd93a05a53c7f, type: 2}
+  defaultSpawnLocation:
+    stringValue: RightHand
+    indexValue: 0
+    stringValues:
+    - RightHand
+  removeAmount: 1
+  recoilTime: 0.34
+  instantFirstUse: 1
+  ammoType: 1
+  localAmmo:
+    valueName: ValueName
+    data: {fileID: 11400000, guid: d9874d4938405ff4b9983e0c6b6c461c, type: 2}
+    maxCount: 1
+    unlimitedTotalAmount: 1
+  globalAmmoManager: {fileID: 0}
+  globalAmmo:
+    stringValue: 
+    indexValue: 0
+    stringValues: []
+  onEmpty: 0
+  aimMask:
+    serializedVersion: 2
+    m_Bits: 0
+  aimDistance: 6
+  aimOffset: {x: 0, y: 0, z: 0}
+  muzzlePos: Muzzle
+  muzzlePosInd: 1
+  aimFX: {fileID: 11400000, guid: 5d2b62d53195c8b44a68fde793026136, type: 2}
+  fireType: 1
+  damage: 0
+  instantFirstShot: 1
+  fireDelay: 1
+  projectileType: 1
+  fireDistance: 10
+  projectile: {fileID: 1394969629413380, guid: fd7d527169e9219459104a47aa495e5e, type: 3}
+  projectileSpeed: 5
+  spreadType: 0
+  fireAmount: 5
+  angle: 30
+  randomAmount: 0
+  aimTransformAtTarget: 0
+  aimTrans:
+    overridePropertyName: 
+    overrideParent: 0
+    parent: {fileID: 0}
+    stringValue: Muzzle
+    indexValue: 1
+  mask:
+    serializedVersion: 2
+    m_Bits: 2048

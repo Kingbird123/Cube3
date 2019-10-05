@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3deb1097dd8305043bafafec59643d34, type: 3}
+  m_Name: HookShot
+  m_EditorClassIdentifier: 
+  connectedPrefab: {fileID: 1928542740963574, guid: f78cdbdb542bb354689784bbb207d2d3,
+    type: 3}
+  icon: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  spawnUI: 0
+  itemUI: {fileID: 0}
+  keepUIActiveIfDropped: 0
+  setOwnerAsParent: 0
+  value: 0
+  weight: 0
+  droppable: 0
+  droppedPrefab: {fileID: 0}
+  quickMenuCompatible: 1
+  particleFX: {fileID: 0}
+  animState: 
+  buffs: []
+  locationData: {fileID: 0}
+  defaultSpawnLocation:
+    stringValue: 
+    indexValue: 0
+    stringValues: []
+  removeAmount: 1
+  recoilTime: 0.3
+  instantFirstUse: 1
+  ammoType: 0
+  localAmmo:
+    valueName: ValueName
+    data: {fileID: 0}
+    maxCount: 1
+    unlimitedTotalAmount: 0
+  globalAmmoManager: {fileID: 0}
+  globalAmmo:
+    stringValue: 
+    indexValue: 0
+    stringValues: []
+  onEmpty: 0
+  aimMask:
+    serializedVersion: 2
+    m_Bits: 0
+  aimDistance: 5
+  aimOffset: {x: 0, y: 0, z: 0}
+  muzzlePos: Muzzle
+  muzzlePosInd: 1
+  aimFX: {fileID: 11400000, guid: 057445ff5c3013b49978d805599bb5ca, type: 2}
+  shootType: 1
+  shootButton:
+    stringValue: Fire1
+    indexValue: 2
+  cancelButton:
+    stringValue: Fire2
+    indexValue: 3
+  hookPrefab: {fileID: 1347902284193092, guid: e245dce9936dcc34dbba13c397ba43c0, type: 3}
+  lineRenderer: {fileID: 1865589866721814, guid: 2db3a550219c2c640b51a98b14c89dc2,
+    type: 3}
+  damageMask:
+    serializedVersion: 2
+    m_Bits: 0
+  damage: 0
+  damageRadius: 0.2
+  retractOnDamage: 0
+  fireSpeed: 50
+  lifeTime: 1
+  dragType: 0
+  dragSpeed: 6
+  controlSpeed: 5
+  minDistance: 1.5
+  hookableSurfaceMask:
+    serializedVersion: 2
+    m_Bits: 262144
+  cancelShotMask:
+    serializedVersion: 2
+    m_Bits: 256
+  obstacleCollisionMask:
+    serializedVersion: 2
+    m_Bits: 295168
+  collisionRadius: 0.5

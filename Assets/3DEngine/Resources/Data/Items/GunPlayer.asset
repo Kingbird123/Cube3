@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 614768199d046dc4bac32daf0e55234b, type: 3}
+  m_Name: GunPlayer
+  m_EditorClassIdentifier: 
+  avatarIcon: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  entityDataManager: {fileID: 11400000, guid: 24b07bd0180bf304495b94de710fb0b3, type: 2}
+  entityId: 4
+  engineEventManager: {fileID: 0}
+  engineValueManager: {fileID: 0}
+  engineValueSelections: []
+  spawnUI: 1
+  UIToSpawn: {fileID: 4019271938874873721, guid: fe71b59ea442742448c0b6c52fa7600f,
+    type: 3}
+  childOptions: 2
+  syncValuesToUI: 1
+  entitySyncType: 0
+  entityLayoutSyncs: []
+  connectedPrefab: {fileID: 1928542740963574, guid: 7ad7705eb4afbb342aad5c8fb3981d9a,
+    type: 3}
+  keepUIActiveIfDropped: 0
+  setOwnerAsParent: 0
+  weight: 0
+  droppable: 0
+  droppedPrefab: {fileID: 0}
+  quickMenuCompatible: 1
+  particleFX: {fileID: 0}
+  animState: 
+  buffs: []
+  locationData: {fileID: 11400000, guid: fcd6cf54689f2664f9ccd93a05a53c7f, type: 2}
+  defaultSpawnLocation:
+    stringValue: RightHand
+    indexValue: 0
+    stringValues:
+    - RightHand
+    - AmmoPouche
+  itemSyncType: 0
+  layoutMaster: {fileID: 11400000, guid: dab63b0275647b7479f3116148b3027b, type: 2}
+  reloadSync:
+    syncType: 0
+    layoutMaster: {fileID: 11400000, guid: dab63b0275647b7479f3116148b3027b, type: 2}
+    syncSelection:
+      stringValue: Reload
+      indexValue: 3
+      stringValues: []
+  ammoClipAmountSync:
+    syncType: 0
+    layoutMaster: {fileID: 11400000, guid: dab63b0275647b7479f3116148b3027b, type: 2}
+    syncSelection:
+      stringValue: AmmoClipAmount
+      indexValue: 1
+      stringValues: []
+  ammoIndSync:
+    syncType: 0
+    layoutMaster: {fileID: 11400000, guid: dab63b0275647b7479f3116148b3027b, type: 2}
+    syncSelection:
+      stringValue: AmmoClipInd
+      indexValue: 2
+      stringValues: []
+  ammoType:
+    stringValue: Ammo
+    indexValue: 5
+    stringValues:
+    - SmallEnemy
+    - MediumEnemy
+    - LargeEnemy
+    - Player
+    - Item
+    - Ammo
+  preloadAmmo: 1
+  ammoDatas:
+  - {fileID: 11400000, guid: 6cee52e1636ff7f40b5377bc069d628c, type: 2}
+  - {fileID: 11400000, guid: 6cee52e1636ff7f40b5377bc069d628c, type: 2}
+  - {fileID: 11400000, guid: 6cee52e1636ff7f40b5377bc069d628c, type: 2}
+  - {fileID: 11400000, guid: 6cee52e1636ff7f40b5377bc069d628c, type: 2}
+  - {fileID: 11400000, guid: 6cee52e1636ff7f40b5377bc069d628c, type: 2}
+  recoilTime: 0.3
+  delay: 0
+  reloadIfEmpty: 1
+  reloadTime: 0.5
+  aimMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  aimDistance: 10
+  aimOffset: {x: 0, y: 0, z: 0}
+  muzzlePos: Muzzle
+  muzzlePosInd: 1
+  aimFX: {fileID: 11400000, guid: 9152f8ad3a1a5a04fb0e16bc3f9f9db0, type: 2}
+  fireType: 0
+  damage: 1
+  instantFirstShot: 1
+  fireDelay: 0.3
+  fireDistance: 10
+  projectileSpeed: 25
+  aimTransformAtTarget: 0
+  aimTrans:
+    overridePropertyName: 
+    overrideParent: 0
+    parent: {fileID: 0}
+    stringValue: Muzzle
+    indexValue: 1
+  mask:
+    serializedVersion: 2
+    m_Bits: 131328

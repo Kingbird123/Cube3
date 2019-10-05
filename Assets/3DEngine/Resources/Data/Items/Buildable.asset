@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 588e44586c7c4e74ba7d9d65b33531c2, type: 3}
+  m_Name: Buildable
+  m_EditorClassIdentifier: 
+  connectedPrefab: {fileID: 1586949728617314, guid: d101d0dd5109c764fa71bd9654f1c0a8,
+    type: 3}
+  icon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  spawnUI: 0
+  itemUI: {fileID: 0}
+  keepUIActiveIfDropped: 0
+  setOwnerAsParent: 0
+  value: 0
+  weight: 0
+  droppable: 0
+  droppedPrefab: {fileID: 0}
+  quickMenuCompatible: 1
+  particleFX: {fileID: 0}
+  animState: 
+  buffs: []
+  locationData: {fileID: 11400000, guid: fcd6cf54689f2664f9ccd93a05a53c7f, type: 2}
+  defaultSpawnLocation:
+    stringValue: RightHand
+    indexValue: 0
+    stringValues:
+    - RightHand
+  removeAmount: 1
+  recoilTime: 0.3
+  instantFirstUse: 0
+  ammoType: 0
+  localAmmo:
+    valueName: ValueName
+    data: {fileID: 0}
+    maxCount: 1
+    unlimitedTotalAmount: 0
+  globalAmmoManager: {fileID: 0}
+  globalAmmo:
+    stringValue: 
+    indexValue: 0
+    stringValues: []
+  onEmpty: 0
+  aimMask:
+    serializedVersion: 2
+    m_Bits: 256
+  aimDistance: 10
+  aimOffset: {x: 0, y: 0, z: 0}
+  muzzlePos: Muzzle
+  muzzlePosInd: 1
+  aimFX: {fileID: 11400000, guid: 057445ff5c3013b49978d805599bb5ca, type: 2}
+  placeables:
+  - placeableName: SmallBox
+    validPlacementMask:
+      serializedVersion: 2
+      m_Bits: 256
+    snapType: 2
+    transName: Pos
+    gridSpacing: 1
+    gridOffset: {x: 0.5, y: 0, z: 0.5}
+    placeableSize: {x: 1, y: 1, z: 1}
+    previewPrefab: {fileID: 1780334057066656, guid: 4fbe94f0d0c1bcf438e16528d90d88b4,
+      type: 3}
+    placedPrefab: {fileID: 1780334057066656, guid: 4fbe94f0d0c1bcf438e16528d90d88b4,
+      type: 3}
+  - placeableName: BigBox
+    validPlacementMask:
+      serializedVersion: 2
+      m_Bits: 256
+    snapType: 0
+    transName: 
+    gridSpacing: 0
+    gridOffset: {x: 0, y: 0, z: 0}
+    placeableSize: {x: 1, y: 1, z: 1}
+    previewPrefab: {fileID: 1275396173105886, guid: 3635359583274d946bb93045d69a3241,
+      type: 3}
+    placedPrefab: {fileID: 1275396173105886, guid: 3635359583274d946bb93045d69a3241,
+      type: 3}
+  validMaterial: {fileID: 2100000, guid: 19b8dbe0437add6478c2b0b0a481950e, type: 2}
+  invalidMaterial: {fileID: 2100000, guid: dd1651d61dfdb0a43bc17d22e8ee707e, type: 2}
+  overlapMask:
+    serializedVersion: 2
+    m_Bits: 65536
+  rotateAmount: 90

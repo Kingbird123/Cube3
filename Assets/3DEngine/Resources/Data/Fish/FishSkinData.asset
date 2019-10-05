@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 521a533febed98140977306496ea2377, type: 3}
+  m_Name: FishSkinData
+  m_EditorClassIdentifier: 
+  avatarIcon: {fileID: 0}
+  entityDataManager: {fileID: 0}
+  entityId: 0
+  spawnUI: 0
+  UIToSpawn: {fileID: 0}
+  parentUIToUnit: 0
+  setSkin: 1
+  skinPrefab: {fileID: 1864494052883856, guid: e02d917c2f36b394594b1f7e38067acc, type: 3}
+  skinSize: {x: 1, y: 1}
+  skinRotation: {x: 0, y: 0, z: 0}
+  locationData: {fileID: 0}
+  itemSpawnLocations: []
+  weight: 1
+  speed: 5
+  runSpeed: 6
+  backwardSpeed: 2
+  climbingSpeed: 2
+  jumpPower: 5
+  vitalityData: {fileID: 0}
+  hpValue:
+    stringValue: 
+    indexValue: 0
+    stringValues: []
+  manaValue:
+    stringValue: 
+    indexValue: 0
+    stringValues: []
+  staminaValue:
+    stringValue: 
+    indexValue: 0
+    stringValues: []
+  infiniteLives: 0
+  maxLives: 1
+  onHitFX: []
+  invincibleOnHit: 0
+  invincibleTime: 1
+  ignorePhysicsOnHit: 1
+  ignoreLayers: []
+  ignoreTime: 1
+  stunOnHit: 0
+  stunTime: 1
+  changeMeshMaterialOnHit: 0
+  changeMeshTime: 1
+  materialToUse: {fileID: 0}
+  buffs: []
+  deathTime: 1
+  deathFX: []
+  deathOptions: 0
+  delay: 0
+  respawnTime: 1
+  noLivesOptions: 0
+  endTime: 1
+  deathMovement: 0
+  resetLevelOnDeath: 0

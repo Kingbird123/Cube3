@@ -4,7 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - FlythroughCam
+  - Platform
+  - Enemy
+  - Light
+  - Block
+  - DiscCamera
+  - Disc
+  - IsTrigger
   layers:
   - Default
   - TransparentFX
@@ -14,30 +20,30 @@ TagManager:
   - UI
   - 
   - 
-  - Skybox
-  - Player
-  - PostProcessing
-  - SetDressing
-  - 
-  - 
-  - Vehicles
-  - Navmesh
-  - Environment
-  - Characters
-  - Vegetation
-  - Effects
-  - Ragdoll
-  - WaterGeometry
   - Terrain
+  - MovingUnit
+  - StaticUnit
+  - Player
+  - DontRenderOnPlay
+  - FallThrough
+  - HitBox
+  - Wall
+  - Platform
   - Enemy
-  - Cameras
-  - Props
-  - Avoid
-  - CameraCollider
-  - Collider
-  - Checkpoint
-  - DoNotDraw
-  - Level
+  - Ceiling
+  - Draggable
+  - Projectile
+  - OneWay
+  - Ladder
+  - Interactable
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0

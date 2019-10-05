@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5fff86129659f439dbbd49a0e0b432, type: 3}
+  m_Name: ProjectileDisc
+  m_EditorClassIdentifier: 
+  connectedPrefab: {fileID: 1571242017430174, guid: 7cec80ab11ff50f40bfd6fd712eb8b5d,
+    type: 3}
+  launchFX:
+    delay: 0
+    fxEvents:
+    - fxData: {fileID: 11400000, guid: aad9d88aa3cabba4bb0d8c0d65e1ed2e, type: 2}
+      startType: 0
+  steerable: 1
+  horSpeed: 5
+  verSpeed: 0
+  destroySelfType: 2
+  hitMaxAmount: 1
+  impactType: 2
+  time: 0
+  triggerType: 1
+  velocity: 0.01
+  spawnOnImpact: []
+  impactFX:
+    delay: 1
+    fxEvents:
+    - fxData: {fileID: 11400000, guid: 70628cc1b6a8ef5479d4ebe6d65b1511, type: 2}
+      startType: 0
+    - fxData: {fileID: 11400000, guid: c529e06cbcce41a43b6f282e2c5c7101, type: 2}
+      startType: 0
+    - fxData: {fileID: 11400000, guid: 2d97cf74e54304742b1b2f453759edfa, type: 2}
+      startType: 0
+    - fxData: {fileID: 11400000, guid: c585be68c6a7c8447a582343dc18aec8, type: 2}
+      startType: 0

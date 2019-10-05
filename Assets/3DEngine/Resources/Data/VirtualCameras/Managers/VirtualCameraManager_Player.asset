@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83c7195763ae4b244be811396463b78d, type: 3}
+  m_Name: VirtualCameraManager_Player
+  m_EditorClassIdentifier: 
+  virtualCameras:
+  - {fileID: 11400000, guid: c9dd6cff131fc294dae25256e0aa3780, type: 2}
+  - {fileID: 11400000, guid: 06880bc10ca73a541993828eb5ae9691, type: 2}
+  - {fileID: 11400000, guid: fc1f373b4b0be6f49bf3a8f268fdcb2f, type: 2}

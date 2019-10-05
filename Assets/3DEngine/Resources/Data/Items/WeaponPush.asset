@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f92de8a3089124586d2dd679e4facf, type: 3}
+  m_Name: WeaponPush
+  m_EditorClassIdentifier: 
+  avatarIcon: {fileID: 0}
+  entityDataManager: {fileID: 11400000, guid: 24b07bd0180bf304495b94de710fb0b3, type: 2}
+  entityId: 4
+  engineEventManager: {fileID: 0}
+  engineValueManager: {fileID: 0}
+  engineValueSelections: []
+  spawnUI: 0
+  UIToSpawn: {fileID: 0}
+  childOptions: 0
+  syncValuesToUI: 0
+  entitySyncType: 0
+  entityLayoutSyncs: []
+  connectedPrefab: {fileID: 7758634943395131488, guid: 2ed22d195da9d6242aff67af3521bd4b,
+    type: 3}
+  keepUIActiveIfDropped: 0
+  setOwnerAsParent: 0
+  weight: 0
+  droppable: 0
+  droppedPrefab: {fileID: 0}
+  quickMenuCompatible: 0
+  particleFX: {fileID: 0}
+  animState: 
+  buffs: []
+  locationData: {fileID: 11400000, guid: fcd6cf54689f2664f9ccd93a05a53c7f, type: 2}
+  defaultSpawnLocation:
+    stringValue: AmmoPouche
+    indexValue: 1
+    stringValues:
+    - RightHand
+    - AmmoPouche
+  itemSyncType: 0
+  layoutMaster: {fileID: 0}
+  reloadSync:
+    syncType: 0
+    layoutMaster: {fileID: 0}
+    syncSelection:
+      stringValue: 
+      indexValue: 0
+      stringValues: []
+  ammoClipAmountSync:
+    syncType: 0
+    layoutMaster: {fileID: 0}
+    syncSelection:
+      stringValue: 
+      indexValue: 0
+      stringValues: []
+  ammoIndSync:
+    syncType: 0
+    layoutMaster: {fileID: 0}
+    syncSelection:
+      stringValue: 
+      indexValue: 0
+      stringValues: []
+  ammoType:
+    stringValue: 
+    indexValue: 0
+    stringValues: []
+  preloadAmmo: 0
+  ammoDatas: []
+  recoilTime: 0.3
+  delay: 0
+  reloadIfEmpty: 0
+  reloadTime: 0.5
+  aimMask:
+    serializedVersion: 2
+    m_Bits: 0
+  aimDistance: 10
+  aimOffset: {x: 0, y: 0, z: 0}
+  muzzlePos: 
+  muzzlePosInd: 0
+  aimFX: {fileID: 0}
+  affectedMask:
+    serializedVersion: 2
+    m_Bits: 1
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 256
+  force: 10
+  upwardForce: 3
+  XZOnly: 0
+  radius: 3
+  setAngle: 1
+  angle: 180
+  fallOffCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: -1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

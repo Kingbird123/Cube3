@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5340832015759001877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2195031991361676064}
+  - component: {fileID: 6489555218017317795}
+  m_Layer: 0
+  m_Name: MenuManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2195031991361676064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5340832015759001877}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1310175519959342962}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6489555218017317795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5340832015759001877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b197e652af76b8c44af90d37170f266f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  freezeOnPause: 0
+  enableCameraSwitching: 1
+  cameraSwitch:
+    cameraSwitchers:
+    - enterCameraManager: {fileID: 11400000, guid: 9752e0622c64f8642bed519eb0120094,
+        type: 2}
+      enterCameraInd: 0
+      exitCameraManager: {fileID: 11400000, guid: a38d4559797fc7542afc557bce75155f,
+        type: 2}
+      exitCameraInd: 1
+      ignorePriorityOnExit: 1
+      switchButton:
+        stringValue: Cancel
+        indexValue: 17
+      switchType: 1
+      activateEvents: []
+      deactivateEvents: []
+--- !u!1 &9065557246486652876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1310175519959342962}
+  - component: {fileID: 2016686552980787528}
+  m_Layer: 0
+  m_Name: CubeGameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1310175519959342962
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9065557246486652876}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.9472499, y: 2.827941, z: -1.8183126}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2195031991361676064}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2016686552980787528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9065557246486652876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e6b3f3b1eee07b468ab3488dff986bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userData: {fileID: 11400000, guid: e9e6e6233d2bb1e4e9ada33de7b7b5e5, type: 2}
+  skinManager: {fileID: 0}
+  spawnManager: {fileID: 11400000, guid: 1c3eeaa0c97ae83459eb84a75475bade, type: 2}
+  initializeSpawnManagerOnStart: 1
+  sceneTransData: {fileID: 11400000, guid: 2548b91d86f991143b11f47c33015a28, type: 2}
+  valueUIManagerData: {fileID: 11400000, guid: 630a76b7faa85df44965080ae1f55526, type: 2}
+  poolManagerData: {fileID: 11400000, guid: 3f8bcefa7babc2c4d85937f0c1029ede, type: 2}
+  killHeight: -20
+  menuManager: {fileID: 6489555218017317795}
+  musicManager: {fileID: 0}

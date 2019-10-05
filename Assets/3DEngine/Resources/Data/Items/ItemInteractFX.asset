@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3be1fdf5819c1743905432cd1e1f7aa, type: 3}
+  m_Name: ItemInteractFX
+  m_EditorClassIdentifier: 
+  connectedPrefab: {fileID: 1510478394912466, guid: ac7d485e575cb1340960941814e428e5,
+    type: 3}
+  icon: {fileID: 0}
+  spawnUI: 0
+  itemUI: {fileID: 0}
+  keepUIActiveIfDropped: 0
+  setOwnerAsParent: 0
+  value: 0
+  weight: 0
+  droppable: 0
+  droppedPrefab: {fileID: 0}
+  quickMenuCompatible: 0
+  particleFX: {fileID: 0}
+  animState: 
+  buffs: []
+  locationData: {fileID: 0}
+  defaultSpawnLocation:
+    stringValue: 
+    indexValue: 0
+    stringValues: []
+  removeAmount: 1
+  recoilTime: 0.3
+  instantFirstUse: 0
+  ammoType: 1
+  localAmmo:
+    valueName: ValueName
+    data: {fileID: 11400000, guid: d0ee645ad8507404f9634e5ab8aadea3, type: 2}
+    maxCount: 1
+    unlimitedTotalAmount: 0
+  globalAmmoManager: {fileID: 0}
+  globalAmmo:
+    stringValue: 
+    indexValue: 0
+    stringValues: []
+  onEmpty: 1
+  aimMask:
+    serializedVersion: 2
+    m_Bits: 0
+  aimDistance: 10
+  aimOffset: {x: 0, y: 0, z: 0}
+  muzzlePos: Muzzle
+  muzzlePosInd: 1
+  aimFX: {fileID: 11400000, guid: 057445ff5c3013b49978d805599bb5ca, type: 2}
+  interacts:
+  - {fileID: 11400000, guid: e8916c4ef89a6d246964ea9d35788abe, type: 2}
+  runInteractsOnOwner: 1

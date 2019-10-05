@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8424fc13f1639d46b158946064c9af5, type: 3}
+  m_Name: EntityDataManager
+  m_EditorClassIdentifier: 
+  entities:
+  - entityName: SmallEnemy
+    id: 0
+  - entityName: MediumEnemy
+    id: 1
+  - entityName: LargeEnemy
+    id: 2
+  - entityName: Player
+    id: 3
+  - entityName: Item
+    id: 4
+  - entityName: Ammo
+    id: 5

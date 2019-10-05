@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c41dd2dd3485c0a4ca0db33ea7ac2dce, type: 3}
+  m_Name: ProjectileBouncingBullet
+  m_EditorClassIdentifier: 
+  connectedPrefab: {fileID: 1394969629413380, guid: 827734c20e7a490408343af59621f03d,
+    type: 3}
+  launchFX: []
+  steerable: 0
+  horSpeed: 1
+  verSpeed: 1
+  destroySelfType: 0
+  hitMaxAmount: 1
+  impactType: 0
+  time: 0
+  triggerType: 0
+  velocity: 0
+  spawnOnImpact: []
+  impactFX: []
+  enableRicochet: 1
+  cornerDetectRadius: 0.5
+  doImpactOnRicochet: 0
+  bounceAngleType: 0

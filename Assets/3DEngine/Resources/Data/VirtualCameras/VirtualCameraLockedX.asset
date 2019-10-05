@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e9165c40bfeb34daf3ba5d7cea4c0e, type: 3}
+  m_Name: VirtualCameraLockedX
+  m_EditorClassIdentifier: 
+  virtualCameraPrefab: {fileID: 8437603152328783114, guid: 58f0bdeb22eb9b64ba22ed593e243cda,
+    type: 3}
+  findTargetOnEnable: 1
+  followAndLookatIdentical: 1
+  setFollowTarget: 1
+  followTarget:
+    sceneObjectType: 3
+    overrideGameObject: {fileID: 0}
+    closestTag: Player
+    nameToFind: 
+  followOffset: {x: -0.5, y: 1.5, z: 0}
+  setLookAtTarget: 1
+  lookAtTarget:
+    sceneObjectType: 2
+    overrideGameObject: {fileID: 0}
+    closestTag: 
+    nameToFind: 
+  lookAtOffset: {x: -0.5, y: 1.5, z: 0}

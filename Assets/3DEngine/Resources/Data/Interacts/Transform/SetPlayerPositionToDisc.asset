@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21211c29307fe8e4a8f860815861d79f, type: 3}
+  m_Name: SetPlayerPositionToDisc
+  m_EditorClassIdentifier: 
+  delay: 0
+  affectedType:
+    sceneObjectType: 2
+    closestTag: Player
+    nameToFind: 
+  maskInd: 1
+  setPositionTo: 1
+  positionVector: {x: 0, y: 0, z: 0}
+  positionObj:
+    sceneObjectType: 2
+    closestTag: Disc
+    nameToFind: 
+  setRotationTo: 0
+  rotationVector: {x: 0, y: 0, z: 0}
+  rotationObj:
+    sceneObjectType: 0
+    closestTag: 
+    nameToFind: 
+  setScaleTo: 0
+  scaleVector: {x: 0, y: 0, z: 0}
+  scaleObj:
+    sceneObjectType: 0
+    closestTag: 
+    nameToFind: 

@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f1b7a5b677c1374989faf0c6bd319b9, type: 3}
+  m_Name: AmmoContainer_Limited
+  m_EditorClassIdentifier: 
+  avatarIcon: {fileID: 0}
+  entityDataManager: {fileID: 11400000, guid: 24b07bd0180bf304495b94de710fb0b3, type: 2}
+  entityId: 5
+  engineEventManager: {fileID: 11400000, guid: 65a9a81f9e8feb94cb087e9e8bd51143, type: 2}
+  engineValueManager: {fileID: 11400000, guid: 171cb9bdaca1398489f6022f5d5f0ddd, type: 2}
+  engineValueSelections:
+  - engineValueName: AmmoClips | AmmoClip_Limited
+    valueSelection:
+      selectionName: AmmoClips | AmmoClip_Limited
+      category:
+        stringValue: AmmoClips
+        indexValue: 0
+        stringValues: []
+      engineValue:
+        stringValue: AmmoClip_Limited
+        indexValue: 0
+        stringValues: []
+      valueData: {fileID: 11400000, guid: 606bcff8285c77047b877f1106e38cc8, type: 2}
+    valueEvents:
+    - eventName: Empty | Destroy
+      triggerType: 6
+      compareValue: 0
+      eventType: 0
+      valueDelta: 0
+  spawnUI: 1
+  UIToSpawn: {fileID: 4019271938874873721, guid: dd8f2adb0b05af748a7d5617952e6d33,
+    type: 3}
+  childOptions: 2
+  syncValuesToUI: 1
+  entitySyncType: 0
+  entityLayoutSyncs:
+  - syncType: 0
+    layoutMaster: {fileID: 11400000, guid: dab63b0275647b7479f3116148b3027b, type: 2}
+    valueManager: {fileID: 11400000, guid: 171cb9bdaca1398489f6022f5d5f0ddd, type: 2}
+    syncSelections:
+    - masterInd: 0
+      valueInd: 0
+  connectedPrefab: {fileID: 8685154173740657691, guid: 581402d2f9af8584b8a7d58588e9b747,
+    type: 3}
+  keepUIActiveIfDropped: 0
+  setOwnerAsParent: 0
+  weight: 0
+  droppable: 0
+  droppedPrefab: {fileID: 0}
+  quickMenuCompatible: 0
+  particleFX: {fileID: 0}
+  animState: 
+  buffs: []
+  locationData: {fileID: 11400000, guid: fcd6cf54689f2664f9ccd93a05a53c7f, type: 2}
+  defaultSpawnLocation:
+    stringValue: AmmoPouche
+    indexValue: 1
+    stringValues:
+    - RightHand
+    - AmmoPouche
+  ammoSelection: 0
+  projectileType: 1
+  projectile: {fileID: 11400000, guid: adddb9a98115111499c6385918aa9270, type: 2}
+  spreadType: 0
+  removeAmount: 1
+  fireAmount: 1
+  angle: 0
+  randomAmount: 0

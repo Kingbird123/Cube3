@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27ab93024bb783e48b2c419590601220, type: 3}
+  m_Name: Skin_PlayerBlue
+  m_EditorClassIdentifier: 
+  avatarIcon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  entityDataManager: {fileID: 11400000, guid: 24b07bd0180bf304495b94de710fb0b3, type: 2}
+  entityId: 3
+  engineEventManager: {fileID: 11400000, guid: 31e4ffcf8258e3d488efef151bc2c954, type: 2}
+  engineValueManager: {fileID: 11400000, guid: 0eb7e98275f9ac34ea499fe1799e6600, type: 2}
+  engineValueSelections:
+  - engineValueName: Health | PlayerHealth
+    valueSelection:
+      selectionName: Health | PlayerHealth
+      category:
+        stringValue: Health
+        indexValue: 0
+        stringValues: []
+      engineValue:
+        stringValue: PlayerHealth
+        indexValue: 0
+        stringValues: []
+      valueData: {fileID: 11400000, guid: 095945809c382254c8ea07deb65d9820, type: 2}
+    valueEvents:
+    - eventName: Decreased | Hurt
+      triggerType: 2
+      compareValue: 0
+      eventType: 1
+      valueDelta: 0
+    - eventName: Empty | Die
+      triggerType: 6
+      compareValue: 0
+      eventType: 0
+      valueDelta: 0
+    - eventName: Empty | Respawn
+      triggerType: 6
+      compareValue: 0
+      eventType: 2
+      valueDelta: 0
+  - engineValueName: Lives | PlayerLives
+    valueSelection:
+      selectionName: Lives | PlayerLives
+      category:
+        stringValue: Lives
+        indexValue: 1
+        stringValues: []
+      engineValue:
+        stringValue: PlayerLives
+        indexValue: 0
+        stringValues: []
+      valueData: {fileID: 11400000, guid: db32f8d13c8da6246b68ea77f348251c, type: 2}
+    valueEvents:
+    - eventName: Empty | LoseGame
+      triggerType: 6
+      compareValue: 0
+      eventType: 3
+      valueDelta: 0
+  spawnUI: 1
+  UIToSpawn: {fileID: 114403502391972192, guid: 1f90183527ab3194da7cef661a5102e5,
+    type: 3}
+  parentUIToEntity: 0
+  syncValuesToUI: 1
+  entitySyncType: 0
+  entityLayoutSyncs:
+  - syncType: 0
+    layoutMaster: {fileID: 11400000, guid: a9214ac6ba679584f94b1cf4581ac5a0, type: 2}
+    valueManager: {fileID: 11400000, guid: 0eb7e98275f9ac34ea499fe1799e6600, type: 2}
+    syncSelections:
+    - masterInd: 0
+      valueInd: 0
+    - masterInd: 1
+      valueInd: 1
+  setSkin: 1
+  skinPrefab: {fileID: 1989248425515870, guid: 8675291a30361c24ab7c2b44b0922912, type: 3}
+  skinSize: {x: 1, y: 2}
+  skinRotation: {x: 0, y: 0, z: 0}
+  locationData: {fileID: 11400000, guid: fcd6cf54689f2664f9ccd93a05a53c7f, type: 2}
+  itemSpawnLocations:
+  - overridePropertyName: RightHand
+    overrideParent: 1
+    parent: {fileID: 1989248425515870, guid: 8675291a30361c24ab7c2b44b0922912, type: 3}
+    stringValue: Bip001 R Weapon
+    indexValue: 33
+  - overridePropertyName: AmmoPouche
+    overrideParent: 1
+    parent: {fileID: 1989248425515870, guid: 8675291a30361c24ab7c2b44b0922912, type: 3}
+    stringValue: Bip001 R Thigh
+    indexValue: 8
+  weight: 1
+  speed: 6
+  runSpeed: 10
+  backwardSpeed: 4
+  climbingSpeed: 2
+  jumpPower: 10
+  buffs: []

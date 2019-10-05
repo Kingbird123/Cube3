@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 554f922058fa7994697753499225c637, type: 3}
+  m_Name: FishInflator
+  m_EditorClassIdentifier: 
+  connectedPrefab: {fileID: 1884562265443692, guid: 529b59df53fa9c0419d7dcfd06fbf6ea,
+    type: 3}
+  icon: {fileID: 0}
+  spawnUI: 1
+  itemUI: {fileID: 1341164273875498, guid: 9faca2d0fd6696946a08d8d3f3094c88, type: 3}
+  keepUIActiveIfDropped: 0
+  setOwnerAsParent: 0
+  value: 0
+  weight: 0
+  droppable: 0
+  droppedPrefab: {fileID: 0}
+  quickMenuCompatible: 0
+  particleFX: {fileID: 0}
+  animState: 
+  buffs: []
+  useType: 1
+  recoilTime: 0.3
+  instantFirstUse: 0
+  constantRemoveSpeed: 2
+  ammoType: 2
+  onEmpty: 0
+  ammoClip: {fileID: 11400000, guid: cd03bf99a8acf99479c009f0e9b49ecf, type: 2}
+  unlimitedTotalAmmo: 0
+  reloadTime: 1
+  maxClipCount: 1
+  rechargeSpeed: 0.3
+  overheat: 1
+  overheatRechargeTime: 3
+  drainOnHPHit: 1

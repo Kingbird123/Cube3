@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adcd4cce9c905314aa01c96a80444e17, type: 3}
+  m_Name: Draggable
+  m_EditorClassIdentifier: 
+  connectedPrefab: {fileID: 1257111676502862, guid: 61d92d960ea93c64db99eb5a99a53f4c,
+    type: 3}
+  icon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  spawnUI: 0
+  itemUI: {fileID: 0}
+  keepUIActiveIfDropped: 0
+  setOwnerAsParent: 0
+  value: 0
+  weight: 0
+  droppable: 0
+  droppedPrefab: {fileID: 0}
+  quickMenuCompatible: 1
+  particleFX: {fileID: 0}
+  animState: 
+  buffs: []
+  locationData: {fileID: 0}
+  defaultSpawnLocation:
+    stringValue: 
+    indexValue: 0
+    stringValues: []
+  removeAmount: 1
+  recoilTime: 0.3
+  instantFirstUse: 0
+  ammoType: 2
+  localAmmo:
+    valueName: ValueName
+    data: {fileID: 0}
+    maxCount: 1
+    unlimitedTotalAmount: 0
+  globalAmmoManager: {fileID: 11400000, guid: 863db04df18153e4dbeeb367e75635ae, type: 2}
+  globalAmmo:
+    stringValue: Mana
+    indexValue: 1
+    stringValues:
+    - Health
+    - Mana
+    - Stamina
+  onEmpty: 0
+  aimMask:
+    serializedVersion: 2
+    m_Bits: 0
+  aimDistance: 10
+  aimOffset: {x: 0, y: 0, z: 0}
+  muzzlePos: Muzzle
+  muzzlePosInd: 1
+  aimFX: {fileID: 11400000, guid: 057445ff5c3013b49978d805599bb5ca, type: 2}
+  dragButton:
+    stringValue: Fire1
+    indexValue: 2
+  removeAmmoSpeed: 2
+  dragZone:
+    zoneName: 
+    overrideZoneName: 0
+    overrideLabel: 0
+    overrideDetectMask: 0
+    detectMask:
+      serializedVersion: 2
+      m_Bits: 524288
+    ignoreTriggerColliders: 0
+    overrideDetectType: 0
+    detectType: 0
+    colliderToUse: {fileID: 0}
+    overridePositionType: 0
+    positionType: 0
+    trans: {fileID: 0}
+    worldPos: {x: 0, y: 0, z: 0}
+    offset: {x: 0, y: 0, z: 0}
+    size: {x: 0, y: 0, z: 1}
+    useTransformAngle: 0
+    angle: {x: 0, y: 0, z: 0}
+    radius: 0.2
+    height: 1
+    overrideColor: 0
+    debugColor: {r: 0, g: 1, b: 1, a: 1}
+    handlePoint: {x: 0, y: 0, z: 0}
+  dragSensitivity: 10
+  sensitivityByWeight: 0
+  minWeight: 0.1
+  maxWeight: 3
+  throwForce: 0
+  consistentThrowPower: 0
+  allowDragThroughColliders: 0

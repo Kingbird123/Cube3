@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 508fe75a565251a43a8fa40451c71a7f, type: 3}
+  m_Name: Shield
+  m_EditorClassIdentifier: 
+  connectedPrefab: {fileID: 1276588821548372, guid: e6c18cde5013e7a40977670e81e2edf5,
+    type: 3}
+  icon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  spawnUI: 1
+  itemUI: {fileID: 1341164273875498, guid: ce29eb1ebba0deb419a0ab3ecdba233b, type: 3}
+  keepUIActiveIfDropped: 0
+  setOwnerAsParent: 0
+  value: 0
+  weight: 0
+  droppable: 0
+  droppedPrefab: {fileID: 0}
+  quickMenuCompatible: 1
+  particleFX: {fileID: 0}
+  animState: 
+  buffs: []
+  locationData: {fileID: 0}
+  defaultSpawnLocation:
+    stringValue: 
+    indexValue: 0
+    stringValues: []
+  removeAmount: 0
+  recoilTime: 0
+  instantFirstUse: 1
+  ammoType: 2
+  localAmmo:
+    valueName: ValueName
+    data: {fileID: 11400000, guid: d9874d4938405ff4b9983e0c6b6c461c, type: 2}
+    maxCount: 1
+    unlimitedTotalAmount: 1
+  globalAmmoManager: {fileID: 11400000, guid: 863db04df18153e4dbeeb367e75635ae, type: 2}
+  globalAmmo:
+    stringValue: Health
+    indexValue: 0
+    stringValues:
+    - Health
+    - Mana
+    - Stamina
+  onEmpty: 0
+  aimMask:
+    serializedVersion: 2
+    m_Bits: 0
+  aimDistance: 10
+  aimOffset: {x: 0, y: 0, z: 0}
+  muzzlePos: Muzzle
+  muzzlePosInd: 1
+  aimFX: {fileID: 11400000, guid: 057445ff5c3013b49978d805599bb5ca, type: 2}
+  toggleShieldButton:
+    stringValue: Fire1
+    indexValue: 2
+  shieldPrefab: {fileID: 1157203423732420, guid: 49e8fb7d2b8605b48b421d6270dfcbbe,
+    type: 3}
+  minDistance: 2
+  maxDistance: 3
+  lockToModelPrefabHeight: 1
+  bounceProjectiles: 1
+  bounceMask:
+    serializedVersion: 2
+    m_Bits: 1048576
+  useIncomingForce: 1
+  bounceForce: 15
+  changeDamageMaskAfterBounce: 1
+  damageMask:
+    serializedVersion: 2
+    m_Bits: 131072
+  detectSize: {x: 5, y: 1}
+  detectOffset: {x: 0, y: 0}
+  grabObjects: 1
+  grabButton:
+    stringValue: Fire2
+    indexValue: 3
+  deactivateShieldOnReload: 1
+  disableUnitMovementWhenShieldActive: 0

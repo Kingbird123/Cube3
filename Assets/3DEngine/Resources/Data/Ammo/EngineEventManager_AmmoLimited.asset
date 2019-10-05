@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c1f63ab1f214e49a90401d1c9fafd6, type: 3}
+  m_Name: EngineEventManager_AmmoLimited
+  m_EditorClassIdentifier: 
+  engineEvents:
+  - eventArrayName: Destroy
+    events:
+    - eventName: Event 1
+      sceneObject:
+        sceneObjectType: 2
+        overrideGameObject: {fileID: 0}
+        closestTag: 
+        nameToFind: 
+      startType: 0
+      inputButton:
+        stringValue: 
+        indexValue: 0
+      eventTypeMask: 1
+      commons:
+      - affectedObj: 0
+        overrideObject: {fileID: 0}
+        eventType: 1
+        active: 0
+        delay: 0
+        objToSpawn: {fileID: 0}
+        positionType: 0
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+        positionObj:
+          sceneObjectType: 0
+          overrideGameObject: {fileID: 0}
+          closestTag: 
+          nameToFind: 
+        setParent: 0
+        parentObj:
+          sceneObjectType: 0
+          overrideGameObject: {fileID: 0}
+          closestTag: 
+          nameToFind: 
+      anims: []
+      methods: []
+      interacts: []
+      eventOptions: []
+      valueDeltaOptions: []
+      detectZoneInd: 0
+      delay: 0
+      repeat: 0
+      repeatTime: 0
+      finishType: 0
+      totalTime: 0
+      active: 0
+      finished: 1
