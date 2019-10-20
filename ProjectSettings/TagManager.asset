@@ -11,6 +11,14 @@ TagManager:
   - DiscCamera
   - Disc
   - IsTrigger
+  - Pivot
+  - PurpleStone
+  - RedStone
+  - BlueStone
+  - YellowStone
+  - GreenStone
+  - OrangeStone
+  - PlayerAttack
   layers:
   - Default
   - TransparentFX
