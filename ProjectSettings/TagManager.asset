@@ -19,6 +19,8 @@ TagManager:
   - GreenStone
   - OrangeStone
   - PlayerAttack
+  - Magnet Block
+  - Cinemachine
   layers:
   - Default
   - TransparentFX
