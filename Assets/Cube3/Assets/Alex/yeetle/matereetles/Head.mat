@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AllPurposeShaderTest
+  m_Name: Head
   m_Shader: {fileID: -6465566751694194690, guid: 85b619c5ee0d74b43874c4b19c8d9687,
     type: 3}
   m_ShaderKeywords: 
@@ -34,11 +34,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_15749F43:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: cc4537cfa0a88304e8fbfdf560c811fb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_321FDEE2:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 184b3d788ecc6df47929ffe88a87a2ad, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_85B11028:
@@ -46,15 +46,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_A6714B60:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: abbd04c5665225c4cadd60b3ff7ff4c7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_D0585A65:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 3da941f50e7b0564281e1de9782c5219, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_D2698483:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 42e45c73c86ddb741b153c7a3e579fb3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
