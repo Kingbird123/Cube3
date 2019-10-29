@@ -28,6 +28,18 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
+    - useVariable: 1
+      name: CanAttack
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: InAttack
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     stringVariables: []
     vector2Variables: []
     vector3Variables:
@@ -60,5 +72,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000
-  events: []
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000
+  events:
+  - WeaponAppear
+  - AttackButtonPress
