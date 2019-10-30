@@ -330,13 +330,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: objectToCreate
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 2547468167606876674, guid: e8d5a902df5565b4d8ef76c9bc56f702,
-            type: 3}
+          value: {fileID: 0}
         - useVariable: 1
           name: parent
           tooltip: 
@@ -567,6 +566,13 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: {fileID: 0}
+      - useVariable: 1
+        name: objectToCreate
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 2547468167606876674, guid: e8d5a902df5565b4d8ef76c9bc56f702,
+          type: 3}
       objectVariables: []
       materialVariables: []
       textureVariables: []
@@ -574,7 +580,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -701,12 +707,12 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.2422192
       objectReference: {fileID: 0}
-    - target: {fileID: 2612288754101885868, guid: e8d5a902df5565b4d8ef76c9bc56f702,
+    - target: {fileID: 2612288754101885865, guid: e8d5a902df5565b4d8ef76c9bc56f702,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 2612288754101885865, guid: e8d5a902df5565b4d8ef76c9bc56f702,
+    - target: {fileID: 2612288754101885868, guid: e8d5a902df5565b4d8ef76c9bc56f702,
         type: 3}
       propertyPath: m_Mesh
       value: 
