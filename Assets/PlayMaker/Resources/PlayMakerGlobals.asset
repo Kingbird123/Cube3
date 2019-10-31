@@ -76,3 +76,5 @@ MonoBehaviour:
   events:
   - WeaponAppear
   - AttackButtonPress
+  - SpawnerDestroy
+  - SpawnerDamage
