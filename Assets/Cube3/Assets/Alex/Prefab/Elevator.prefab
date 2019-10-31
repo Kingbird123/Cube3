@@ -551,13 +551,15 @@ MonoBehaviour:
         actionNames:
         - PlayMaker.ConditionalExpression.ConditionalExpression
         - HutongGames.PlayMaker.Actions.MoveTowards
+        - HutongGames.PlayMaker.Actions.Wait
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000006000000
-        actionHashCodes: 490c8701fa0e5402
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000060000000d000000
+        actionHashCodes: 490c8701fa0e540248c01101
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -605,6 +607,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0.00001
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 5
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
@@ -634,12 +642,13 @@ MonoBehaviour:
         - don't move
         - 
         - FINISHED
-        byteData: 0100
+        - FINISHED
+        byteData: 010000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 12000000170000001700000001000000010000001100000014000000130000001c000000110000000f0000000f00000017000000
+        paramDataType: 12000000170000001700000001000000010000001100000014000000130000001c000000110000000f0000000f000000170000000f0000001700000001000000
         paramName:
         - expression
         - isTrueEvent
@@ -654,8 +663,11 @@ MonoBehaviour:
         - maxSpeed
         - finishDistance
         - finishEvent
-        paramDataPos: 00000000000000000100000000000000010000000000000000000000000000000000000001000000000000000100000002000000
-        paramByteDataSize: 00000000000000000000000001000000010000000000000000000000000000000000000000000000000000000000000000000000
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 00000000000000000100000000000000010000000000000000000000000000000000000001000000000000000100000002000000020000000300000002000000
+        paramByteDataSize: 00000000000000000000000001000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     - name: RotateCheck
       description: 
       colorIndex: 0
