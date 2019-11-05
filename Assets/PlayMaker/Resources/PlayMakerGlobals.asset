@@ -13,7 +13,19 @@ MonoBehaviour:
   m_Name: PlayMakerGlobals
   m_EditorClassIdentifier: 
   variables:
-    floatVariables: []
+    floatVariables:
+    - useVariable: 1
+      name: PlayerHealth
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 1
+    - useVariable: 1
+      name: PlayerAngle
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     intVariables:
     - useVariable: 1
       name: stonesCollected
@@ -36,6 +48,12 @@ MonoBehaviour:
       value: 0
     - useVariable: 1
       name: InAttack
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Paused
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -72,9 +90,13 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - WeaponAppear
   - AttackButtonPress
   - SpawnerDestroy
   - SpawnerDamage
+  - Pause
+  - Unpause
+  - HealthDecrease
+  - Damage

@@ -21,6 +21,7 @@ TagManager:
   - PlayerAttack
   - Magnet Block
   - Cinemachine
+  - PressurePlate
   layers:
   - Default
   - TransparentFX
@@ -47,7 +48,7 @@ TagManager:
   - Ladder
   - Interactable
   - Collider
-  - 
+  - Pusher
   - 
   - 
   - 
