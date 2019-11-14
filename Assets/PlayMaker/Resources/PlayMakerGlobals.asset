@@ -26,6 +26,24 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
+    - useVariable: 1
+      name: JumpHeight
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Gravity
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: gravityAxis
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     intVariables:
     - useVariable: 1
       name: stonesCollected
@@ -54,6 +72,12 @@ MonoBehaviour:
       value: 0
     - useVariable: 1
       name: Paused
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: JumpButOnOff
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -90,7 +114,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - WeaponAppear
   - AttackButtonPress
@@ -100,3 +124,7 @@ MonoBehaviour:
   - Unpause
   - HealthDecrease
   - Damage
+  - IsJumping
+  - JumpButtonUp
+  - JumpPeakHeight
+  - isGrounded
